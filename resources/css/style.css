@@ -1,18 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    position:relative;
+    top: 64px;
+}
+
 header {
-    width: 100%;
+
 }
 
 header .content {
-    display:flex;
+    height: 64px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
     align-items: center;
+    background-color: white;
 }
-header nav ul {
-    display:flex;
+header nav ul{
+    display: flex;
 }
 
-header .logo{
+.logo{
+    display: inline-flex;
     flex: 1;
-
+    margin-left: 24px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
 .logo span{
@@ -20,6 +41,7 @@ header .logo{
 }
 
 nav li {
+    margin-left: 16px;
 
   }
 
@@ -31,6 +53,7 @@ nav a {
 
 ul {
     list-style: none;
+    margin-right:24px
 }
 
 header .mobile {
@@ -42,5 +65,8 @@ header .mobile {
     }
     header .mobile{
         display: block;
+    }
+    header .mobile ul {
+        justify-content: space-around;
     }
 }
