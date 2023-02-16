@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+}
+
+header .content {
+    display:flex;
+    align-items: center;
+}
+header nav ul {
+    display:flex;
+}
+
+header .logo{
+    flex: 1;
+
+}
+
+.logo span{
+    font-weight: bold;
+}
+
+nav li {
+
+  }
+
+nav a {
+    vertical-align: bottom;
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+header .mobile {
+    display:none;
+}
+@media only screen and (max-width: 600px) {
+    header .desktop {
+      display: none;
+    }
+    header .mobile{
+        display: block;
+    }
+}
