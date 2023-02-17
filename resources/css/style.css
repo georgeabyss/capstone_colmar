@@ -6,23 +6,23 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Hind Vadodara', sans-serif;
-    color:#404040;
+    color: #404040;
     box-sizing: border-box;
 
 }
 
 .main-content {
-    position:relative;
+    position: relative;
     top: 64px;
 }
 
 p {
-    margin-top:24px;
-    margin-bottom:24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
-h1{
-    margin:0;
+h1 {
+    margin: 0;
 }
 
 /* Header */
@@ -38,11 +38,12 @@ header .content {
     align-items: center;
     background-color: white;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
 }
 
-.logo{
+.logo {
     display: inline-flex;
     flex: 1;
     margin-left: 24px;
@@ -51,14 +52,14 @@ header nav ul{
     color: black;
 }
 
-.logo span{
+.logo span {
     font-weight: bold;
 }
 
 nav li {
     margin-left: 16px;
 
-  }
+}
 
 nav a {
     vertical-align: bottom;
@@ -68,19 +69,22 @@ nav a {
 
 ul {
     list-style: none;
-    margin-right:24px
+    margin-right: 24px
 }
 
 header .mobile {
-    display:none;
+    display: none;
 }
+
 @media only screen and (max-width: 600px) {
     header .desktop {
-      display: none;
+        display: none;
     }
-    header .mobile{
+
+    header .mobile {
         display: block;
     }
+
     header .mobile ul {
         justify-content: space-around;
     }
@@ -108,9 +112,9 @@ header .mobile {
     margin-left: 24px;
 }
 
-#hero-cta p{
+#hero-cta p {
     font-weight: bold;
-} 
+}
 
 #button {
     padding-top: 8px;
@@ -136,7 +140,7 @@ header .mobile {
 }
 
 #quote-text {
-    margin-left: 24px; 
+    margin-left: 24px;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -147,6 +151,7 @@ header .mobile {
     margin-top: 0px;
     margin-bottom: 24px;
 }
+
 #infos {
     display: flex;
     flex-direction: column;
@@ -186,4 +191,76 @@ header .mobile {
     display: flex;
     flex-direction: column;
     margin-right: 24px;
+}
+
+#guest {
+    background-color: lightgrey;
+}
+
+#courses h2 {
+    padding-top: 32px;
+    text-align: center;
+}
+
+#courses {
+    background-color: lightgrey;
+}
+
+#course-container {
+    max-width: 100%;
+    margin: 32px 72px;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    padding-bottom: 32px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+
+}
+
+.course {
+    margin-bottom: 32px 16px;
+    flex: 1;
+    background-color: white;
+    margin: 16px;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+}
+
+.course h4 {
+    margin-top: 16px;
+}
+
+.course p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.course-text {
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+
+}
+
+footer p {
+    margin-left: 24px;
+    margin-top: 16px;
+    flex: 1;
+}
+
+footer nav li {
+    display: inline-flex;
+    margin-left: 16px;
+    vertical-align: bottom;
 }
