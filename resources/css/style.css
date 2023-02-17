@@ -345,8 +345,54 @@ video {
 
     }
 
+    #read-more {
+        flex-flow: column;
+        justify-content: center;
+    }
 
-    nav.mobile {}
+    .description {
+        margin-left: 16px;
+
+    }
+
+    .description h4 {
+        margin-top: 32px;
+    }
+
+    #infos {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+  
+    #quote-text {
+        display: none;
+    }
+
+    #read-more p {
+        display: block;
+        margin: 0px;
+    }
+
+    #guest.info {
+        background-color: white;
+    }
+
+    .info {
+        margin: 0;
+        flex-direction: column;
+        width: 100%;
+        align-items:flex-start;
+        margin-bottom: 64px;
+    }
+    .info:last-child {
+        margin-bottom: 32px;
+    }
+
+    .info picture img {
+        width: 100%;
+        height: auto;
+        margin: 0px;  
+    }
 
     header .mobile ul {
         display: flex;
