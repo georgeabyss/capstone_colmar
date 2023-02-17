@@ -79,20 +79,6 @@ header .mobile {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
-    header .desktop {
-        display: none;
-    }
-
-    header .mobile {
-        display: block;
-    }
-
-    header .mobile ul {
-        justify-content: space-around;
-    }
-}
-
 /* Hero */
 
 #hero {
@@ -277,6 +263,10 @@ video {
     margin: 0;
 }
 
+#thesis-headline {
+    text-align: center;
+}
+
 #thesis-text {
 
     display: flex;
@@ -331,4 +321,58 @@ video {
 #thesis-text p {
     margin-top: 0px;
     padding-bottom: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+    header .desktop {
+        display: none;
+    }
+
+    header .mobile {
+        display: block;
+        width: 100%;
+    }
+
+    div.content {
+        display: flex;
+        align-items: center;
+
+    }
+
+
+    nav.mobile {
+ 
+    }
+
+    header .mobile ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+  
+
+    #hero {
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+    }
+
+    #hero-cta {
+
+    }
+
+    .hero-img {
+        min-width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    a#button {
+        margin-bottom: 32px;
+    }
+
+
+
 }
