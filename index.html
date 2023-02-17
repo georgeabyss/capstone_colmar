@@ -54,7 +54,11 @@
       </div>
       <div id="infos">
         <div class="info">
-          <img src="./resources/images/information-orientation.jpg">
+          <picture>
+            <source media="(min-width: 900px)" srcset="./resources/images/information-orientation.jpg">
+            <source media="(min-width: 600px)" srcset="./resources/images/information-orientation-mobile.jpg">
+            <img src ="./resources/images/information-orientation.jpg">
+        </picture>
           <div class="description">
             <h4>Orientation date</h4>
             <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -62,7 +66,11 @@
           </div>
         </div>
         <div class="info">
-          <img src="./resources/images/information-campus.jpg">
+          <picture>
+            <source media="(min-width: 900px)" srcset="./resources/images/information-campus.jpg">
+            <source media="(min-width: 600px)" srcset="./resources/images/information-campus-mobile.jpg">
+            <img src ="./resources/images/information-campus.jpg">
+        </picture>
           <div class="description">
             <h4>Our campus</h4>
             <p>find which campus is close by you</p>
@@ -70,7 +78,11 @@
           </div>
         </div>
         <div class="info" id="guest">
-          <img src="./resources/images/information-guest-lecture.jpg">
+          <picture>
+            <source media="(min-width: 900px)" srcset="./resources/images/information-guest-lecture.jpg">
+            <source media="(min-width: 600px)" srcset="./resources/images/information-guest-lecture-mobile.jpg">
+            <img src ="./resources/images/information-guest-lecture.jpg">
+        </picture>
           <div class="description">
             <h4>Our guest lecture</h4>
             <p>Join a keybote with Oliver Sack about music in medical treatment</p>
