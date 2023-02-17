@@ -16,8 +16,13 @@ body {
 }
 
 p {
-    margin-top: 24px;
+
     margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+.author {
+    margin-bottom: 32px;
 }
 
 h1 {
